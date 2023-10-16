@@ -1,5 +1,4 @@
-<script>
-    $(document).ready(function () {
+$(document).ready(function () {
         $(".steps_item-button").click(function () {
             var data_id = $(this).attr('data-step');
             $(".steps_item-circle-active").removeClass("current");
@@ -15,4 +14,3 @@
             $("." + data_id).addClass("current");
         });
     });
-</script>
